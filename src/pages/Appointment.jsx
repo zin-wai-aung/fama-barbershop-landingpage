@@ -14,10 +14,10 @@ const Appointment = () => {
           </p>
 
           <div className=" flex flex-col md:flex-row items-center gap-3 md:gap-y-5">
-            <a href="" className=" px-5 py-4 rounded-lg border-2 cursor-pointer border-secondary bg-secondary hover:bg-black">
+            <a href="#contact" className=" px-5 py-4 rounded-lg border-2 cursor-pointer border-secondary bg-secondary hover:bg-black">
               Book an Appointment
             </a>
-            <a href="services" className=" px-5 py-4 rounded-lg border-2 cursor-pointer text-secondary hover:text-white border-secondary hover:bg-secondary">
+            <a href="#services" className=" px-5 py-4 rounded-lg border-2 cursor-pointer text-secondary hover:text-white border-secondary hover:bg-secondary">
               View Our Services
             </a>
           </div>

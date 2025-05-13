@@ -57,14 +57,14 @@ const Hero = () => {
 
             <div className="flex flex-col items-center sm:flex-row gap-4">
               <a
-                href="#"
+                href="#services"
                 className="bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-gray-900 px-6 py-3 rounded-full transition-colors duration-300 flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
                 Our Services
               </a>
               <a
-                href="#"
+                href="#contact"
                 className="bg-primary text-gray-900 hover:bg-primaryDark px-8 py-3 rounded-full transition-colors duration-300 text-base sm:text-lg font-semibold"
               >
                 Book Now
