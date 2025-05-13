@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@theme{
+     --color-primary:#F4BF38;
+     --color-primaryDark:#D08600;
+     --color-paragraphColor:#99A1AE;
+     --color-secondary:#1A1A1A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.service-card {
+     position: relative;
+     transition: all 0.3s ease-in-out;
+   }
+   .service-card:hover .line-hover {
+     width: 100%;
+   }
+   
